@@ -42,38 +42,60 @@
         .category {
             margin-bottom: 30px;
         }
+        .categories-container {
+    display: flex; /* This turns on Flexbox for the container */
+    justify-content: space-between; /* This will space out the child elements evenly */
+    flex-wrap: wrap; /* This allows the items to wrap onto the next line if the container is too narrow */
+}
+
+.category {
+    flex: 1; /* This allows each category to grow and fill the space */
+    min-width: 300px; /* This prevents the categories from becoming too narrow */
+    margin: 0 10px; /* Optional: Adds some space between the categories */
+}
+
     </style>
 </head>
 <body>
     <h1>Email Templates</h1>
-
+    <div class="categories-container">
     <div class="category">
         <h2>Admin Emails</h2>
         <ul>
-            <li><a href="Admin - Active Listing.html">Admin - Active Listing</a></li>
-            <li><a href="Admin - Sold-Expired Listing.html">Admin - Sold-Expired Listing</a></li>
-            <li><a href="Admin - Contact Us.html">Admin - Contact Us</a></li>
-            <li><a href="Admin - Join Valery.html">Admin - Join Valery</a></li>
-            <h3>Home Evaluation Related</h3>
+            <h3>Contact Forms</h3>
+            <li><a href="Admin - Contact via Active Listing.html">Admin - Contact via Active Listing</a></li>
+            <li><a href="Admin - Contact via Sold Listing.html">Admin - Contact via Sold Listing</a></li>
+            <li><a href="Admin - Contact Us Form.html">Admin - Contact Us Form</a></li>
+            <li><a href="Admin - Realtor Join Valery Form.html">Admin - Realtor Join Valery Form</a></li>
+            <h3>Home Evaluations</h3>
             <li><a href="Admin - Home Evaluation Generated.html">Admin - Home Evaluation Generated</a></li>
-            <li><a href="Admin - Home Evaluation Verification Requested.html">Admin - Home Evaluation Verification Requested</a></li>
+            <li><a href="Admin - Home Evaluation Verification Request.html">Admin - Home Evaluation Verification Request</a></li>
+            <h3>Registration, Verification, Account Settings</h3>
+            <li><a href="Admin - New User Registration.html">Admin - New User Registration</a></li>
 
             <!-- Add more Admin email links here -->
         </ul>
     </div>
-
+<br>
     <div class="category">
         <h2>User Emails</h2>
         <ul>
-            <li><a href="User - Active Listing.html">User - Active Listing</a></li>
-            <li><a href="User - Sold-Expired Listing.html">User - Sold-Expired Listing</a></li>
-            <li><a href="User - Join Valery.html">User - Join Valery</a></li>
-            <li><a href="User - Contact Us.html">User - Contact Us</a></li>
-            <li><a href="User - Report PDF is Ready.html">User - Report PDF is Ready</a></li>
+            <h3>Contact Forms</h3>
+            <li><a href="User - Contact via Active Listing.html">User - Contact via Active Listing</a></li>
+            <li><a href="User - Contact via Sold Listing.html">User - Contact via Sold Listing</a></li>
+            <li><a href="User - Contact Us Form.html">User - Contact Us Form</a></li>
+            <li><a href="User - Realtor Join Valery Form.html">User - Realtor Join Valery Form</a></li>
+            <h3>Home Evaluations</h3>
+            <li><a href="User - PDF Report is Ready.html">User - PDF Report is Ready</a></li>
+            <h3>Registration, Verification, Account Settings</h3>
+
+
 
 
             <!-- Add more User email links here -->
         </ul>
     </div>
+</div>
+
 </body>
 </html>
