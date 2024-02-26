@@ -36,8 +36,8 @@
         object-fit: contain; /* Ensures the image fits nicely within the frame without stretching */
         margin: 0 auto; /* Centers the image within its container */
         display: block; /* Ensures the image is on its own line */ }
-  .footer { font-family: Arial; padding: 20px; text-align: center; background-color: #f2f2f2; font-size: 0.8em; }
-  .footer a { color: #000000; text-decoration: underline; }
+  .footer { color: #434343; font-family: Arial; padding: 20px; text-align: center; background-color: #f2f2f2; font-size: 0.8em; line-height: 1.2;}
+  .footer a { color: #434343; text-decoration: none; }
   .footer p { margin: 10px 0; }
   .social-icons img { height: 32px; width: 32px; margin: 0 5px; }
     /* Inline-block fallback for clients like Gmail */
@@ -93,23 +93,50 @@
       </tr>
     </table>
         </div>
-        <div class="footer">
-          <hr style="border-top: 1px solid #434343; width: 95%; margin: 20px auto;">
-          <p><strong>Questions? Get in touch:</strong> <a href="mailto:info@valery.ca">info@valery.ca</a> - <a href="tel:(416) 699-0825">(416) 699-0825</a></p>
-          <p><strong>Explore Homes on Valery:</strong> <a href="http://www.valery.ca">www.valery.ca</a></p>
-          <p>390 Edgeley Blvd Unit 18, Vaughan, ON L4K 3Z6 Canada</p>
-    
-          <div class="social-icons">
-            <a href="https://www.facebook.com/ChatValBot/" target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Facebook_svg-512.png" alt="Facebook"></a>
+<div class="footer" style="font-family: Arial; padding: 20px; text-align: center; background-color: #f2f2f2; font-size: 0.8em; color: #434343;">
+  <hr style="border-top: 1px solid #434343; width: 95%; margin: 10px auto;">
+  <table width="100%">
+    <tr>
+      <td width="50%" valign="top" style="text-align:center;">
+        <p><strong>Questions? Get in touch:</strong><br>
+        <a href="mailto:info@valery.ca">info@valery.ca</a><br>
+        <a href="tel:(416) 699-0825">(416) 699-0825</a></p>
+        
+        <p><strong>Explore Homes on Valery:</strong><br>
+        <a href="http://www.valery.ca">www.valery.ca</a></p>
+        
+        <p>390 Edgeley Blvd Unit 18,<br>
+          Vaughan, ON L4K 3Z6 Canada</p>
+      </td>
+      <td width="50%" valign="center" style="text-align:center;">
+
+        <div class="social-icons">
+          <!-- Social Icons Here -->
+          
+          <a href="https://www.facebook.com/ChatValBot/" target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Facebook_svg-512.png" alt="Facebook"></a>
             <a href="https://www.twitter.com/ValeryCanada" target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Twitter_svg-512.png" alt="Twitter"></a>
             <a href="https://www.linkedin.com/" target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Linkedin_svg-512.png" alt="Linkedin"></a>
             <a href="https://www.instagram.com/Valery.canada" target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Instagram_svg-512.png" alt="Instagram"></a>
             <a href="https://www.tiktok.com/@valeryrealestate" target="_blank"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2421/512/TikTok-256.png" alt="TikTok"></a>
-          </div>
-    
-          <p>© 2024 Valery Real Estate Inc., Brokerage. All Rights Reserved</p>
-          <p>This message was intended for {{ email }}. If you did not make this request or believe you have received this message in error, please notify us immediately at support@valery.ca.</p>
         </div>
+        <p class="footer-links">
+          <a href="#" style="text-decoration: underline;">Contact Us</a> |
+          <a href="#" style="text-decoration: underline;">Terms of Service</a> |
+          <a href="#" style="text-decoration: underline;">Privacy Policy</a> |
+          <a href="#" style="text-decoration: underline;">Unsubscribe</a>
+        </p>
+      </td>
+    </tr>
+  </table>
+  <p>This message was intended for {{email}}. If you did not make this request or believe you have received this message in error, please notify us immediately at support@valery.ca.</p>
+  <div style="text-align: center; margin-top: 10px;">
+    <!-- Logo image -->
+    <img src="https://dev.blog-chatval.dinamicka.info/wp-content/uploads/2024/02/logo_square.png" alt="Logo" style="vertical-align: middle; width: 30px; height: 30px; margin-right: 5px;">
+    <!-- Copyright text -->
+    <span>© 2024 Valery Real Estate Inc., Brokerage. All Rights Reserved</span>
+
+  </div>
+</div>
     </div>
     </body>    
 </html>
