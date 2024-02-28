@@ -3,16 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap" rel="stylesheet" type="text/css"/>
 <style>
-  @import url('https://fonts.googleapis.com/css?family=Poppins:400;500;600;700');
-  body { font-family: 'Poppins', Arial; line-height: 1.6; font-size: 16px; }
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  body { font-family: 'Roboto', Arial, sans-serif; line-height: 1.5; font-size: 16px; }
   .container { width: 100%; max-width: 600px; margin: 20px auto; background: #ffffff; padding: 20px; }
   .logo {
         max-width: 100%; /* This ensures the image is never larger than its container */
         height: auto; /* This maintains the aspect ratio of the image */
         display: block; /* This can remove any unwanted space beneath the image */
-        margin-left: auto; /* This centers the image if the container is wider */
+        margin-left: 0; /* This centers the image if the container is wider */
         margin-right: auto;
         margin-bottom: 10px; }
   .header { background-color: #f2f2f2; padding: 10px; text-align: center; }
@@ -37,7 +36,7 @@
         object-fit: contain; /* Ensures the image fits nicely within the frame without stretching */
         margin: 0 auto; /* Centers the image within its container */
         display: block; /* Ensures the image is on its own line */ }
-        .footer { color: #434343; font-family: Arial; padding: 20px; text-align: center; background-color: #f2f2f2; font-size: 0.8em; line-height: 1.2;}
+  .footer { padding: 20px; text-align: center; background-color: #f2f2f2; font-size: 0.8em; line-height: 1.2;}
   .footer a { color: #434343; text-decoration: none; }
   .footer p { margin: 10px 0; }
   .social-icons img { height: 32px; width: 32px; margin: 0 5px; }
@@ -79,24 +78,26 @@
     <div class="container">
       <img src="https://dev.blog-chatval.dinamicka.info/wp-content/uploads/2024/02/Centerd-Logo-Final-Shadow1x.png" alt="Valery Real Estate Logo" class="logo" style="width: 150px; max-width: 100%; height: auto;">
       <div class="header">
-          <h2>Listing Inquiry Received</h2>
+          <h2 style="font-family: 'Roboto', sans-serif; font-weight: 500;">Listing Inquiry Received</h2>
         </div>
         <div class="lead-section">
-          <h3>Hi Michael 👋</h3>
-          <p>Thank you for your interest in Listing #N8077600 at 42 Vanity Crescent, Richmond Hill, Ontario. A member of our team will be in touch with you soon.</p>
-          <p>If you have any immediate questions or require assistance, please <a href="https://chatvalcdndev.azureedge.net/contact/"><strong>contact us.</strong></a>
-          <p>Happy House Hunting! 🏠🤖</p>
+          <h3 style="font-family: 'Roboto', sans-serif; font-weight: 500;">Hi Michael 👋</h3>
+          <p style="font-family: 'Roboto', sans-serif; font-weight: 400;">Thank you for your interest in Listing #N8077600 at 42 Vanity Crescent, Richmond Hill, Ontario. A member of our team will be in touch with you soon.</p>
+          <p style="font-family: 'Roboto', sans-serif; font-weight: 400;">If you have any immediate questions or require assistance, please <a href="https://chatvalcdndev.azureedge.net/contact/">contact us.</a>
+          <p style="font-family: 'Roboto', sans-serif; font-weight: 400;">Happy House Hunting! 🏠🤖</p>
         </div>
+        <div style="font-family: 'Roboto', sans-serif; font-size: 18px; font-weight: 500; background-color: #f2f2f2; color: #000000; padding: 20px; text-align: center;">
+          Listing Details</div>
+
         <div class="listing-section">
         <table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td>
               <div class="listing-details">
-                <h3>Active Listing Details</h3>
-                <p><strong>Listing ID:</strong> <a href="https://chatvalcdndev.azureedge.net/individual_listing/?mlsNumber=N8077600" target="_blank">#N8077600</a></p>
-                <p><strong>Address:</strong> <a href="https://chatvalcdndev.azureedge.net/individual_listing/?mlsNumber=N8077600" target="_blank">42 Vanity Cres, Richmond Hill, Ontario</a></p>
-                <p><strong>Date Listed:</strong> February 10th, 2024</p>
-                <p><strong>List Price:</strong> $1,200,000</p>
+                <p><span style="font-weight: 500;">Listing ID:</span><a href="https://chatvalcdndev.azureedge.net/individual_listing/?mlsNumber=N8077600" target="_blank"> #N8077600</a></p>
+                <p><span style="font-weight: 500;">Address:</span> <a href="https://chatvalcdndev.azureedge.net/individual_listing/?mlsNumber=N8077600" target="_blank">42 Vanity Cres, Richmond Hill, Ontario</a></p>
+                <p><span style="font-weight: 500;">Date Listed:</span> February 10th, 2024</p>
+                <p><span style="font-weight: 500;">List Price:</span> $1,200,000</p>
               </div>            
             </td>
           </tr>
@@ -110,16 +111,16 @@
           </tr>
         </table>
       </div>
-<div class="footer" style="font-family: Arial; padding: 20px; text-align: center; background-color: #f2f2f2; font-size: 0.8em; color: #434343;">
+<div class="footer" style="font-family: 'Roboto', sans-serif; font-weight: 400; padding: 20px; text-align: center; background-color: #f2f2f2; font-size: 0.8em; color: #434343;">
   <hr style="border-top: 1px solid #434343; width: 95%; margin: 10px auto;">
   <table width="100%">
     <tr>
       <td width="50%" valign="top" style="text-align:center;">
-        <p><strong>Questions? Get in touch:</strong><br>
+        <p><span style="font-weight: 500;">Questions? Get in touch:</span><br>
         <a href="mailto:info@valery.ca">info@valery.ca</a><br>
         <a href="tel:(416) 699-0825">(416) 699-0825</a></p>
         
-        <p><strong>Explore Homes on Valery:</strong><br>
+        <p><span style="font-weight: 500;">Explore Homes on Valery:</span><br>
         <a href="http://www.valery.ca">www.valery.ca</a></p>
         
         <p>390 Edgeley Blvd Unit 18,<br>
@@ -145,14 +146,15 @@
       </td>
     </tr>
   </table>
-  <p>This message was intended for {{email}}. If you did not make this request or believe you have received this message in error, please notify us immediately at support@valery.ca.</p>
+
   <div style="text-align: center; margin-top: 10px;">
     <!-- Logo image -->
     <img src="https://dev.blog-chatval.dinamicka.info/wp-content/uploads/2024/02/logo_square.png" alt="Logo" style="vertical-align: middle; width: 30px; height: 30px; margin-right: 5px;">
     <!-- Copyright text -->
-    <span>© 2024 Valery Real Estate Inc., Brokerage. All Rights Reserved</span>
+    <span style="font-weight: 500;">© 2024 Valery Real Estate Inc., Brokerage. All Rights Reserved</span>
 
   </div>
+  <p style="font-weight: 300;">This message was intended for {{email}}. If you did not make this request or believe you have received this message in error, please notify us immediately at support@valery.ca.</p>
 </div>
     </div>
     </body>    
